@@ -4,7 +4,13 @@
 
 [中文说明](README.zh-CN.md)
 
-A computer vision project for locating a rectangular target and adjusting a two-axis aiming mechanism. This repository preserves 12 Python scripts from the 2025 competition, with a guide to the different control and triggering approaches.
+## Final competition version
+
+[Final script](final/ypy_key_jiguang_timer_new.py): the final configuration confirmed by our team triggers the GPIO output approximately **2 seconds after the start button is pressed**. This copy was prepared from the separately supplied script by changing its timer from 4 to 2 seconds, including the default argument and comments. It retains the (320, 208) pixel setpoint and updated Y-axis direction settings. It passed static syntax parsing; this prepared copy has not been tested on the hardware.
+
+The 12 scripts under `examples/` remain intermediate debugging versions. The final script uses elapsed-time triggering, independent of alignment success.
+
+A computer vision project for locating a rectangular target and adjusting a two-axis aiming mechanism. This repository contains 12 intermediate Python scripts saved during our team's development and debugging process for the 2025 Electronic Design Competition. They document iterations in vision, motor control, button interaction, and triggering logic, rather than the final competition submission.
 
 ## System overview
 
@@ -44,7 +50,7 @@ Although the scripts expose PID parameters, the archived integral and derivative
 | [laser_detection](examples/laser_detection/) | Purple laser detection alongside target tracking |
 | [hardware_tests](examples/hardware_tests/) | GPIO button test |
 
-Start with [the independent-timer variant](examples/timed_trigger/ypy_key_jiguang_timer_new.py) for the integrated flow. Compare it with [the alignment-triggered variant](examples/aim_trigger/ypy_2_key_jiguang.py) to understand elapsed-time versus error-based triggering. The final competition submission version has not been identified.
+Start with [the independent-timer variant](examples/timed_trigger/ypy_key_jiguang_timer_new.py) for the integrated flow. Compare it with [the alignment-triggered variant](examples/aim_trigger/ypy_2_key_jiguang.py) to understand elapsed-time versus error-based triggering. Both are intermediate development versions.
 
 ## Hardware and setup
 
