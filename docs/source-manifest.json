@@ -1,0 +1,74 @@
+[
+  {
+    "original": "aaa.py",
+    "path": "examples/single_axis/aaa.py",
+    "sha256": "4a069f656240556d931b77e90dbaa97888ec54d9e18881339158f874268e718f",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "rectangle_tracker.py",
+    "path": "examples/single_axis/rectangle_tracker.py",
+    "sha256": "6dadb76a41065876940633b0aba0cbc4c73c4123847f7f957539c1bfe14a5a7e",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "rectangle_new.py",
+    "path": "examples/single_axis/rectangle_new.py",
+    "sha256": "f9b7f746b34256f06868f038a9d71bfb0d753fe2f3a5b6ca283fdd8c01fcbbdf",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "cxd_2.py",
+    "path": "examples/dual_axis/cxd_2.py",
+    "sha256": "ec17de8039c76beced5a0e0c441204568e27810a5d733554c800aabdc12e3a34",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "ypy_2.py",
+    "path": "examples/dual_axis/ypy_2.py",
+    "sha256": "4ad931f843aee56fb4a06150d45ad0bc1fe5da192d1c01f3456d63c2a1dc9073",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "cxd_3_key.py",
+    "path": "examples/button_control/cxd_3_key.py",
+    "sha256": "b118444af5be99e8de4ea82a3bc62391b75efa960cf46adea23e690640ca90a2",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "ypy_2_key.py",
+    "path": "examples/button_control/ypy_2_key.py",
+    "sha256": "5d051ddd1d3cd457e42daee66df75559b48b0f03c1bac06e5a9ec2e75e67986e",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "ypy_2_key_jiguang.py",
+    "path": "examples/aim_trigger/ypy_2_key_jiguang.py",
+    "sha256": "2dbbe501419e267671157c3454f066bc19299a28f138af73cba957ffbd189010",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "ypy_key_jiguang_timer.py",
+    "path": "examples/timed_trigger/ypy_key_jiguang_timer.py",
+    "sha256": "ea7e5b86b9b8a52da47999acdc941eb264a31cc8d631253b94119201d1886051",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "ypy_key_jiguang_timer_new.py",
+    "path": "examples/timed_trigger/ypy_key_jiguang_timer_new.py",
+    "sha256": "ebd5e1b1dc4bca4105e2d6b27fc7858c15a8899973ffa017c4d24c1543d8d93f",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "zise.py",
+    "path": "examples/laser_detection/zise.py",
+    "sha256": "66746f626409b1db9b7eb34bfebb1b36b1c59b3f197ae6128bd93685b322ba6d",
+    "syntax_check": "passed"
+  },
+  {
+    "original": "key_test.py",
+    "path": "examples/hardware_tests/key_test.py",
+    "sha256": "aeab3179117a596a5b96765ca2065b9f6f86aa321a662a7baaaa65a62eff7cc2",
+    "syntax_check": "passed"
+  }
+]

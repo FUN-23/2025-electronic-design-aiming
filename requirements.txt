@@ -1,0 +1,5 @@
+# 原始运行环境版本未记录；安装后需在目标树莓派上验证。
+numpy
+opencv-python
+pyserial
+RPi.GPIO
