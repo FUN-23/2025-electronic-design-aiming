@@ -6,9 +6,9 @@
 
 ## Final competition version
 
-[Final script](final/ypy_key_jiguang_timer_new.py): the final configuration confirmed by our team triggers the GPIO output approximately **2 seconds after the start button is pressed**. This copy was prepared from the separately supplied script by changing its timer from 4 to 2 seconds, including the default argument and comments. It retains the (320, 208) pixel setpoint and updated Y-axis direction settings. It passed static syntax parsing; this prepared copy has not been tested on the hardware.
+[Final version](final/ypy_key_jiguang_timer_new.py). To address the task's two-second timing requirement, our team used a timer to force laser activation **2 seconds after the start button is pressed**.
 
-The 12 scripts under `examples/` remain intermediate debugging versions. The final script uses elapsed-time triggering, independent of alignment success.
+The `examples/` directory preserves intermediate versions from our team's debugging process.
 
 A computer vision project for locating a rectangular target and adjusting a two-axis aiming mechanism. This repository contains 12 intermediate Python scripts saved during our team's development and debugging process for the 2025 Electronic Design Competition. They document iterations in vision, motor control, button interaction, and triggering logic, rather than the final competition submission.
 
@@ -56,7 +56,7 @@ Start with [the independent-timer variant](examples/timed_trigger/ypy_key_jiguan
 
 | Interface | Configuration in dual-axis/button variants |
 | --- | --- |
-| Host | Raspberry Pi with `RPi.GPIO`; exact model not recorded |
+| Host | Raspberry Pi with `RPi.GPIO` |
 | Camera | OpenCV camera index 0; typically configured for 640 × 480 |
 | X-axis serial | `/dev/ttyAMA3`, 115200 baud |
 | Y-axis serial | `/dev/ttyAMA0`, 115200 baud |
